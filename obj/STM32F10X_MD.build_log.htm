@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 12 12, 111, LIC=IK1CX-HGA4I-63VMB-2LC5S-Y0SQM-LKN96
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+F:\电赛\程序\摄像头1\Project.uvprojx
+Project File Date:  08/08/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'STM32F10X_MD'
+compiling main.c...
+main\main.c(117): warning:  #223-D: function "EXTI8_Init" declared implicitly
+  	EXTI8_Init();						//使?芏?时?鞑痘?
+main\main.c(152): warning:  #111-D: statement is unreachable
+      SPI_NRF_WriteReg(NRF_WRITE_REG+RF_CH,10);
+main\main.c(70): warning:  #177-D: variable "key" was declared but never referenced
+  	u8 key;
+main\main.c(72): warning:  #177-D: variable "effect" was declared but never referenced
+  	u8 effect=0;	 
+main\main.c(73): warning:  #177-D: variable "i" was declared but never referenced
+   	u8 i=0;	    
+main\main.c(74): warning:  #177-D: variable "msgbuf" was declared but never referenced
+  	u8 msgbuf[15];				//??息缓????
+main\main.c(75): warning:  #177-D: variable "tm" was declared but never referenced
+  	u8 tm=0; 
+main\main.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=22064 RO-data=6684 RW-data=44 ZI-data=1044  
+FromELF: creating hex file...
+".\obj\STM32F10X_MD.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  F:\电赛\程序\摄像头1\RTE
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
